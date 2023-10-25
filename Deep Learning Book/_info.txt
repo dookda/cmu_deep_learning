@@ -1,0 +1,26 @@
+
+---Note---
+
+เนื่องจาก Seaborn version 0.12  บังคับให้กำหนด x y แต่ในหนังสือ ใช้ v0.11
+จะทำให้ติด Error ดังนั้น ถ้าใช้ v ดังกล่าวให้ใช้โค้ด ดัง ตย. ดังนี้
+
+sns.scatterplot(x='petal_length',y='petal_width',data=df, hue='species'
+
+หรือ ถอน seaborn ออก 
+pip uninstall seaborn 
+
+แล้วติดตั้ง v 0.11 ก็ได้ (ใช้ code เดิมที่ไม่ระบุ x y ได้เลย จะมี warning นิดหน่อย แต่ไม่มีผลอะไร)
+
+pip install seaborn==0.11
+
+-------
+
+
+Book: เรียนรู้ AI: Deep Learning ด้วย Python
+โดย ผศ.ดร. กอบเกียรติ สระอุบล
+
+media.itpart.net
+ISBN: 978-616-90651-7-3
+SE-ED book: https://m.se-ed.com/Search/Result/isbn?key=9786169065173
+
+
